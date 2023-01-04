@@ -9,6 +9,7 @@ This is the official repository for the research paper *"A critical examination 
 
 * [Paper citation](#paper-citation)
 * [Dataset](#dataset)
+* [Designs](#designs)
 * [Scripts](#scripts)
 * [Authors](#authors)
 * [License](#license)
@@ -23,13 +24,28 @@ In our case study, we have collected first impression testing data from particip
 
 [Temporary files](./analysis/data) were created during our [multi-stage analysis](#scripts). The final processed data is contained in two files, one composed of the [participant's details](./analysis/data/respondents.csv) (initial and final questionnaire, cognitive tests and related metrics), the other of [first impression answers](./analysis/data/results.csv) (including metrics and aggregations). The final data files were used in later stages of the analysis to validate the case study's hypotheses.
 
+3 variants of [UXtweak Five Second](https://www.uxtweak.com/five-second-test-tool) Study were created to collect data during the experiment. Each variant is the same contentwise, only using different exposure times - 2, 5 and 10 seconds. The studies can be accessed below:
+
+* Two-second test - [Results](https://app.uxtweak.com/fivesecond/results/pU1pYoCRTKitGeCuFUUpu/5zgKlJ8hq0TCW8vVTzN9C), [Study preview as participant](https://study.uxtweak.com/fivesecond/preview/pU1pYoCRTKitGeCuFUUpu/NXGaWYse3yBnUknOugr34)
+* Five-second test - [Results](https://app.uxtweak.com/fivesecond/results/xUjy9IbJgfMkLbacFP11H/4ue7klaKPGsHkPk939Xau), [Study preview as participant](https://study.uxtweak.com/fivesecond/preview/xUjy9IbJgfMkLbacFP11H/4scOuv2YYGoSYMODmaznv)
+* Ten-second test - [Results](https://app.uxtweak.com/fivesecond/results/gJkGgLlNe3BYGLw0DH6Ju/Vd95znDRfpchUO51xcXHP), [Study preview as participant](https://study.uxtweak.com/fivesecond/preview/gJkGgLlNe3BYGLw0DH6Ju/XMHRaHqkqLnR6qaabtB5B)
+
+
+## Designs
 [6 screenshots of website visual designs](./designs) were used in our case study, with one additional screenshot serving as the warmup task.
 
-3 variants of UXtweak Five Second Study were created to collect data during the experiment. Each variant is the same contentwise, only using different exposure times - 2, 5 and 10 seconds. The studies can be accessed below:
-
-* Two-second test - [Results](https://app.uxtweak.com/fivesecond/results/pU1pYoCRTKitGeCuFUUpu/5zgKlJ8hq0TCW8vVTzN9C), [View as participant](https://study.uxtweak.com/fivesecond/preview/pU1pYoCRTKitGeCuFUUpu/NXGaWYse3yBnUknOugr34)
-* Five-second test - [Results](https://app.uxtweak.com/fivesecond/results/xUjy9IbJgfMkLbacFP11H/4ue7klaKPGsHkPk939Xau), [View as participant](https://study.uxtweak.com/fivesecond/preview/xUjy9IbJgfMkLbacFP11H/4scOuv2YYGoSYMODmaznv)
-* Ten-second test - [Results](https://app.uxtweak.com/fivesecond/results/gJkGgLlNe3BYGLw0DH6Ju/Vd95znDRfpchUO51xcXHP), [View as participant](https://study.uxtweak.com/fivesecond/preview/gJkGgLlNe3BYGLw0DH6Ju/XMHRaHqkqLnR6qaabtB5B)
+<table>
+  <tr>
+    <td align="center"><img src="./designs/design-1.png">TSHIRT</td>
+    <td align="center"><img src="./designs/design-2.png">GLASSES</td>
+    <td align="center"><img src="./designs/design-3.png">SPORT</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./designs/design-4.png">WEATHER</td>
+    <td align="center"><img src="./designs/design-5.png">PET</td>
+    <td align="center"><img src="./designs/design-6.png">NEWS</td>
+  </tr>
+</table>
 
 
 ## Scripts
@@ -109,11 +125,11 @@ Researcher with background in software engineering, whose current topics of inte
 
 **Matus Krajcovic**\
 He is a user experience researcher at [UXtweak](https://www.uxtweak.com/) and computer science student at [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He focuses on data analysis and research in machine learning use in the field of human-computer interaction.
-- Email: matus.krajcovic([AT])uxtweak.com
 - [LinkedIn](https://linkedin.com/in/matus-krajcovic)
+- Email: matus.krajcovic([AT])uxtweak.com
 
 
-## Licence
+## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
